@@ -33,7 +33,7 @@ class AttendanceApp(App):
         self.form_layout = BoxLayout(orientation='vertical', padding=20, spacing=10, size_hint=(0.6, 1))
         self.username_input = TextInput(hint_text="Roll Number", multiline=False)
         self.password_input = TextInput(hint_text="Name", multiline=False)
-        self.status_label = Label(text="Welcome To Tide Cell!")
+        self.status_label = Label(text="Welcome To Cell!")
 
         punch_in_btn = Button(text="Punch In", background_color=(0, 1, 0, 1))
         punch_in_btn.bind(on_press=self.punch_in)
